@@ -34,10 +34,10 @@ func update_animation(is_moving: bool, using_tool: bool) -> void:
 	
 func get_direction_name() -> String:
 	match facing:
-		Vector2.DOWN: return "down"
-		Vector2.UP: return "up"
-		Vector2.RIGHT: return "right"
-		_: return "left"
+		Vector2.DOWN:	return "down"
+		Vector2.UP:		return "up"
+		Vector2.RIGHT:	return "right"
+		_: 				return "left"
 		
 	
 
